@@ -6,7 +6,7 @@ import classes from './main-navigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <Link href='/'>
+      <Link legacyBehavior href='/'>
         <a>
           <Logo />
         </a>
@@ -14,10 +14,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href='/posts'>Posts</Link>
+            <Link legacyBehavior href='/posts'>Posts</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link legacyBehavior href='/contact'>Contact</Link>
           </li>
         </ul>
       </nav>
